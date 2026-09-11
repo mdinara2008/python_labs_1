@@ -5,4 +5,3 @@ length = len(words)
 print(f'Инициалы: {initials}.')
 print(f'Длина (символов): {length}')
 
-

@@ -8,3 +8,5 @@ for i in range(N):
     else:
         zaochno+=1
 print(f'{ochno} {zaochno}')
+
+
