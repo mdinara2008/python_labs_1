@@ -6,6 +6,7 @@
 name = input('Имя: ')
 age = int(input('Возраст: '))
 print(f'Привет, {name}!', f'Через год тебе будет {age+1}.')
+```
 
 ![](./images/lab01/img_01.png)
 
@@ -17,6 +18,7 @@ a,b = float(input('a: ').replace(',','.')), float(input('b: ').replace(',','.'))
 sum1 = a+b
 avg = (a+b)/2
 print(f'sum={sum1:.2f}; avg={avg:.2f}')
+```
 
 ![](./images/lab01/img_02.png)
 
@@ -35,6 +37,7 @@ total = base+vat_amount
 print(f'База после скидки: {base:.2f} ₽')
 print(f'НДС:               {vat_amount:.2f} ₽')
 print(f'Итого к оплате:    {total:.2f} ₽')
+```
 
 ![](./images/lab01/img_03.png)
 
@@ -46,6 +49,7 @@ m = int(input('Минуты: '))
 hours = m//60 
 min = m%60
 print(f'{hours}:{min:02d}')
+```
 
 ![](./images/lab01/img_04.png)
 
@@ -59,6 +63,7 @@ words = ' '.join(fio)
 length = len(words)
 print(f'Инициалы: {initials}.')
 print(f'Длина (символов): {length}')
+```
 
 ![](./images/lab01/img_05.png)
 
@@ -76,6 +81,7 @@ for i in range(n):
     else:
         zaochno+=1
 print(f'out: {ochno} {zaochno}')
+```
 
 ![](./images/lab01/img_06.png)
 
