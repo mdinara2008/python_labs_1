@@ -166,10 +166,19 @@ print(col_sums([[1, 2], [3]]))
 ![](./images/lab02/img02_3.png)
 
 ## Задание 3 (tuples.py)
-### transpose
+### format_record
 
 ```python
 def format_record(rec: tuple[str, str, float]) -> str:
+    """
+    На вход подаётся кортеж из строки с ФИО/ФИ,
+    строки из названия группы,
+    вещественного числа с средним баллом (GPA).
+    Возвращается строка вида "Фамилия И.О., группа, GPA"
+    Если ФИО состоит только из фамилии или пустое, вернётся ValueError.
+    Если группа пустая, вернётся ValueError.
+    Если неверный тип GPA, вернётся TypeError.
+    """
     if not isinstance(rec, tuple):
         raise TypeError('На вход нужно подать кортеж (tuple)')
     if len(rec)!=3:
