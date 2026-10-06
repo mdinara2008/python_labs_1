@@ -27,7 +27,7 @@ print(min_max([-5, -2, -9]))
 print(min_max([1.5, 2, 2.0, -3.1]))
 print(min_max([]))
 ```
-![](./images/lab02/img01_1.png)
+
 
 ### unique_sorted
 
@@ -48,7 +48,7 @@ print(unique_sorted([]))
 print(unique_sorted([-1, -1, 0, 2, 2]))
 print(unique_sorted([1.0, 1, 2.5, 2.5, 0]))
 ```
-![](./images/lab02/img01_2.png)
+
 
 ### flatten
 
@@ -72,7 +72,7 @@ print(flatten([[1, 2], (3, 4, 5)]))
 print(flatten([[1], [], [2, 3]]))
 print(flatten([[1, 2], "ab"]))
 ```
-![](./images/lab02/img01_3.png)
+
 
 ## Задание 2 (matrix.py)
 ### transpose
@@ -114,7 +114,7 @@ print(transpose([[1, 2], [3, 4]]))
 print(transpose([]))
 print(transpose([[1, 2], [3]]))
 ```
-![](./images/lab02/img02_1.png)
+
 
 ### row_sums
 
@@ -140,7 +140,7 @@ print(row_sums([[-1, 1], [10, -10]]))
 print(row_sums([[0, 0], [0, 0]]))
 print(row_sums([[1, 2], [3]]))
 ```
-![](./images/lab02/img02_2.png)
+
 
 ### col_sums
 
@@ -163,7 +163,7 @@ print(col_sums([[-1, 1], [10, -10]]))
 print(col_sums([[0, 0], [0, 0]]))
 print(col_sums([[1, 2], [3]]))
 ```
-![](./images/lab02/img02_3.png)
+
 
 ## Задание 3 (tuples.py)
 ### format_record
@@ -216,4 +216,3 @@ print(format_record(("Петров Пётр", "IKBO-12", 5.0)))
 print(format_record(("Петров Пётр Петрович", "IKBO-12", 5.0)))
 print(format_record(("  сидорова  анна   сергеевна ", "ABB-01", 3.999)))
 ```
-![](./images/lab02/img03.png)
