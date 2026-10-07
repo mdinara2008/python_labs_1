@@ -187,17 +187,20 @@ def format_record(rec: tuple[str, str, float]) -> str:
     fio, group, gpa = rec
     parts = fio.strip().split()
     
-    if len(parts)==0:
+    if len(parts) == 0:
         raise ValueError('Пустое ФИО')
-    if len(parts)<2:
+    elif len(parts)<2:
         raise ValueError('ФИО должно содержать минимум фамилию и имя')
 
     surname = parts[0].capitalize()
     if len(parts)==2:
         initials = f'{parts[1][0].upper()}.'
-    else:
+        form_fio = f'{surname} {initials}'
+    elif len(parts)==3:
         initials = f'{parts[1][0].upper()}.{parts[2][0].upper()}.'
-    form_fio = f'{surname} {initials}'
+        form_fio = f'{surname} {initials}'
+    else:
+        raise ValueError('Введите корректное ФИО')
 
     group = group.strip()
     if len(group)==0:
