@@ -27,7 +27,8 @@ print(min_max([-5, -2, -9]))
 print(min_max([1.5, 2, 2.0, -3.1]))
 print(min_max([]))
 ```
-![](./images/lab02/img01_1.png)
+<img width="563" height="189" alt="img01_1" src="https://github.com/user-attachments/assets/d16a7c39-340d-4b39-afcb-23d4cd7d518a" />
+
 
 ### unique_sorted
 
@@ -48,7 +49,8 @@ print(unique_sorted([]))
 print(unique_sorted([-1, -1, 0, 2, 2]))
 print(unique_sorted([1.0, 1, 2.5, 2.5, 0]))
 ```
-![](./images/lab02/img01_2.png)
+<img width="480" height="91" alt="img01_2" src="https://github.com/user-attachments/assets/cc434223-cbef-493b-a374-261a3ccd8d54" />
+
 
 ### flatten
 
@@ -72,7 +74,8 @@ print(flatten([[1, 2], (3, 4, 5)]))
 print(flatten([[1], [], [2, 3]]))
 print(flatten([[1, 2], "ab"]))
 ```
-![](./images/lab02/img01_3.png)
+<img width="552" height="227" alt="img01_3" src="https://github.com/user-attachments/assets/273ed964-4ab7-46da-99f2-dc3733680a26" />
+
 
 ## Задание 2 (matrix.py)
 ### transpose
@@ -114,7 +117,8 @@ print(transpose([[1, 2], [3, 4]]))
 print(transpose([]))
 print(transpose([[1, 2], [3]]))
 ```
-![](./images/lab02/img02_1.png)
+<img width="553" height="226" alt="img02_1" src="https://github.com/user-attachments/assets/8d6ee095-b181-4534-b925-8c744daff4b5" />
+
 
 ### row_sums
 
@@ -140,7 +144,8 @@ print(row_sums([[-1, 1], [10, -10]]))
 print(row_sums([[0, 0], [0, 0]]))
 print(row_sums([[1, 2], [3]]))
 ```
-![](./images/lab02/img02_2.png)
+<img width="553" height="225" alt="img02_2" src="https://github.com/user-attachments/assets/1f6a927e-68af-4f1e-885b-f122d0eca1cd" />
+
 
 ### col_sums
 
@@ -163,7 +168,8 @@ print(col_sums([[-1, 1], [10, -10]]))
 print(col_sums([[0, 0], [0, 0]]))
 print(col_sums([[1, 2], [3]]))
 ```
-![](./images/lab02/img02_3.png)
+<img width="552" height="226" alt="img02_3" src="https://github.com/user-attachments/assets/71596349-1895-4f20-b702-6b5499c6248a" />
+
 
 ## Задание 3 (tuples.py)
 ### format_record
@@ -216,4 +222,4 @@ print(format_record(("Петров Пётр", "IKBO-12", 5.0)))
 print(format_record(("Петров Пётр Петрович", "IKBO-12", 5.0)))
 print(format_record(("  сидорова  анна   сергеевна ", "ABB-01", 3.999)))
 ```
-![](./images/lab02/img03.png)
+<img width="479" height="89" alt="img03" src="https://github.com/user-attachments/assets/9f29a013-2bde-43fb-8a7d-3dbf8c694d6a" />
