@@ -1,5 +1,5 @@
-import sys
 from src.lib.text import normalize, tokenize, count_freq, top_n
+import sys
 
 text = sys.stdin.read()
 if text.strip()=='':

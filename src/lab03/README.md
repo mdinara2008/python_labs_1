@@ -75,7 +75,7 @@ img
 
 ## Задание B
 
-Скрипт text_stats.py
+Скрипт читает текст из stdin, нормализует и токенизирует его с помощью функций из text.py, считает общее количество слов, количество уникальных слов и выводит топ-5 самых частых слов.
 
 ```python
 from src.lib.text import normalize, tokenize, count_freq, top_n
@@ -96,11 +96,10 @@ print('Топ-5:')
 for t in top:
     print(f'{t[0]}: {t[1]}')
 ```
-#### Запуск: в терминале - python -m src.lab03.text_stats
-#### Ввод на одной строке или построчно.
-#### Вывод: Control+D (Mac)
-
-### Тест-кейсы
+#### Запуск:
+```python
+python3 -m src.lab03.text_stats
+```
 
 img
 
