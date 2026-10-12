@@ -96,7 +96,7 @@ print('Топ-5:')
 for t in top:
     print(f'{t[0]}: {t[1]}')
 ```
-#### Запуск:
+##### Запуск (в терминале)
 ```python
 python3 -m src.lab03.text_stats
 ```
