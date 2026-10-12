@@ -23,7 +23,8 @@ def normalize(text: str, *, casefold: bool = True, yo2e: bool = True) -> str:
     return newtext
 ```
 
-<img width="469" height="264" alt="img03_1" src="https://github.com/user-attachments/assets/2e4716de-b0fa-4c26-a2d1-14b3a4431092" />
+<img width="469" height="264" alt="img01" src="https://github.com/user-attachments/assets/77865be3-aa0d-400c-b958-7df08f4c4ce6" />
+
 
 
 ### tokenize
@@ -41,7 +42,8 @@ def tokenize(text: str) -> list[str]:
     return findall(r'\w+(?:-\w+)*', newtext)
 ```
 
-<img width="452" height="320" alt="img03_2" src="https://github.com/user-attachments/assets/e44aef33-bbda-43dc-a22a-a46fa38b7879" />
+<img width="452" height="320" alt="img02" src="https://github.com/user-attachments/assets/44079a45-f318-4e8f-b8e2-6be1fd81a10d" />
+
 
 
 ### count_freq
@@ -59,7 +61,8 @@ def count_freq(tokens: list[str]) -> dict[str, int]:
     return freq
 ```
 
-<img width="461" height="203" alt="img03_3" src="https://github.com/user-attachments/assets/293208c1-d5bb-4025-b827-b9c909decbbf" />
+<img width="461" height="203" alt="img03" src="https://github.com/user-attachments/assets/b0521fcc-8a76-467f-b74e-33f92093ffe6" />
+
 
 
 ### top_n
@@ -74,7 +77,8 @@ def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
     return res[:n]
 ```
 
-<img width="450" height="197" alt="img03_4" src="https://github.com/user-attachments/assets/6fb96eb1-db5d-4b79-8b9e-624622c49576" />
+<img width="450" height="197" alt="img04" src="https://github.com/user-attachments/assets/cc6b46e3-e0d6-4c01-8665-72c773cf32c7" />
+
 
 
 ## Задание B
@@ -105,4 +109,4 @@ for t in top:
 python3 -m src.lab03.text_stats
 ```
 
-<img width="625" height="126" alt="img03_5" src="https://github.com/user-attachments/assets/7ba4e1fd-127b-41b3-bc38-ff99d3228c29" />
+<img width="625" height="126" alt="img05" src="https://github.com/user-attachments/assets/ed3a37ea-01b1-4027-9691-d1013d9c6574" />
