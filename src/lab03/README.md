@@ -73,6 +73,8 @@ def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
 
 img
 
+## Задание B
+
 ### Скрипт text_stats.py
 
 ```python
