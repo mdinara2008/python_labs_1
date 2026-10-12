@@ -23,7 +23,8 @@ def normalize(text: str, *, casefold: bool = True, yo2e: bool = True) -> str:
     return newtext
 ```
 
-img
+<img width="469" height="264" alt="img03_1" src="https://github.com/user-attachments/assets/2e4716de-b0fa-4c26-a2d1-14b3a4431092" />
+
 
 ### tokenize
 
@@ -40,7 +41,8 @@ def tokenize(text: str) -> list[str]:
     return findall(r'\w+(?:-\w+)*', newtext)
 ```
 
-img
+<img width="452" height="320" alt="img03_2" src="https://github.com/user-attachments/assets/e44aef33-bbda-43dc-a22a-a46fa38b7879" />
+
 
 ### count_freq
 
@@ -57,7 +59,8 @@ def count_freq(tokens: list[str]) -> dict[str, int]:
     return freq
 ```
 
-img
+<img width="461" height="203" alt="img03_3" src="https://github.com/user-attachments/assets/293208c1-d5bb-4025-b827-b9c909decbbf" />
+
 
 ### top_n
 
@@ -71,7 +74,8 @@ def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
     return res[:n]
 ```
 
-img
+<img width="450" height="197" alt="img03_4" src="https://github.com/user-attachments/assets/6fb96eb1-db5d-4b79-8b9e-624622c49576" />
+
 
 ## Задание B
 
@@ -101,6 +105,4 @@ for t in top:
 python3 -m src.lab03.text_stats
 ```
 
-img
-
-img
+<img width="625" height="126" alt="img03_5" src="https://github.com/user-attachments/assets/7ba4e1fd-127b-41b3-bc38-ff99d3228c29" />
