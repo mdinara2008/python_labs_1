@@ -10,7 +10,6 @@ token = tokenize(normal)
 c_freq_new = count_freq(token)
 top = top_n(c_freq_new)
 
-
 print(f'Всего слов: {len(token)}')
 print(f'Уникальных слов: {len(c_freq_new)}')
 print('Топ-5:')
