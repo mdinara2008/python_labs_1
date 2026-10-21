@@ -21,8 +21,6 @@ def write_csv(rows: Iterable[Sequence], path: str | Path, header: tuple[str, ...
     if len(length) > 1:
         raise ValueError('строки имеют разную длину')
 
-    ensure_parent_dir(path)
-
     with p.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         if header is not None:
@@ -31,6 +29,6 @@ def write_csv(rows: Iterable[Sequence], path: str | Path, header: tuple[str, ...
             w.writerow(r)
             
 if __name__ == "__main__":
-    txt = read_text("data/lab04/input.txt", encoding="cp1251")
+    txt = read_text("data/lab04/input.txt")
     print(txt)
     write_csv([("word","count"),("test",3)], "data/lab04/check.csv")
