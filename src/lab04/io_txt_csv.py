@@ -29,6 +29,6 @@ def write_csv(rows: Iterable[Sequence], path: str | Path, header: tuple[str, ...
             w.writerow(r)
             
 if __name__ == "__main__":
-    txt = read_text("data/lab04/input.txt", encoding="ср1251")
+    txt = read_text("data/lab04/input.txt", encoding="utf-8")
     print(txt)
     write_csv([("word","count"),("test",3)], "data/lab04/check.csv")
