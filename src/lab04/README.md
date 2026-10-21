@@ -57,7 +57,10 @@ if __name__ == "__main__":
     write_csv([("word","count"),("test",3)], "data/lab04/check.csv")
 ```
 
-img
+<img width="509" height="39" alt="Снимок экрана 2026-10-21 в 11 09 34" src="https://github.com/user-attachments/assets/0e0e1c25-d443-4128-af78-ece6bb979309" />
+
+<img width="225" height="70" alt="Снимок экрана 2026-10-21 в 11 13 44" src="https://github.com/user-attachments/assets/6782f98e-77ae-4f5e-aad7-5dc324fc9ead" />
+
 
 ## Задание B
 
@@ -101,15 +104,21 @@ if __name__ == "__main__":
 
 ### Тест-кейс для непустого файла input.txt
 
-img
+<img width="632" height="108" alt="Снимок экрана 2026-10-21 в 11 22 07" src="https://github.com/user-attachments/assets/1e3369f0-0d9a-49a0-af82-316f1acc85e2" />
+
+<img width="236" height="99" alt="Снимок экрана 2026-10-20 в 23 12 44" src="https://github.com/user-attachments/assets/5a0b368f-89e7-424d-8d74-7c81b123c7b1" />
 
 ### Тест-кейс для пустого файла input.txt
 
-img
+<img width="632" height="71" alt="Снимок экрана 2026-10-20 в 23 14 55" src="https://github.com/user-attachments/assets/30320611-f567-4de2-9827-c61af745dbfc" />
+
+<img width="225" height="78" alt="Снимок экрана 2026-10-21 в 11 28 34" src="https://github.com/user-attachments/assets/b5ddfee1-099b-42e0-87d9-fd099ef166be" />
 
 ### Тест-кейс для файла input.txt с текстом 'Привет' в кодировке cp1251
 
-img
+<img width="628" height="88" alt="Снимок экрана 2026-10-20 в 23 17 57" src="https://github.com/user-attachments/assets/133d3b63-35b9-4db7-8593-b4866e6ff013" />
+
+<img width="227" height="68" alt="Снимок экрана 2026-10-21 в 11 34 40" src="https://github.com/user-attachments/assets/f208e3e0-3cfc-4bce-b107-df7efb7f536c" />
 
 ### Краевые случаи
 
