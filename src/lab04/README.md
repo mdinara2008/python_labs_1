@@ -71,8 +71,6 @@ def main():
         r_text = read_text("data/lab04/input.txt", encoding="utf-8")
     except FileNotFoundError:
         print("файл не найден")
-    except UnicodeDecodeError:
-        print("неподходящая кодировка") 
         sys.exit(1)
 
     normal = normalize(r_text)
