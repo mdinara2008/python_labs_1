@@ -1,3 +1,4 @@
+<img width="511" height="40" alt="Снимок экрана 2026-10-21 в 11 06 20" src="https://github.com/user-attachments/assets/ac3ec106-f68d-4677-9b6f-a181ad6271e1" />
 # ЛР4 — Файлы: TXT/CSV и отчёты по текстовой статистике
 ## Задание A
 
@@ -57,7 +58,10 @@ if __name__ == "__main__":
     write_csv([("word","count"),("test",3)], "data/lab04/check.csv")
 ```
 
-img
+<img width="509" height="39" alt="Снимок экрана 2026-10-21 в 11 09 34" src="https://github.com/user-attachments/assets/5b9bf498-fab9-4059-bd25-6febd9977e8a" />
+
+<img width="225" height="70" alt="Снимок экрана 2026-10-21 в 11 13 44" src="https://github.com/user-attachments/assets/da4fc635-578d-4dc9-b656-16de8ea00354" />
+
 
 ## Задание B
 
@@ -92,15 +96,23 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
+<img width="236" height="99" alt="Снимок экрана 2026-10-20 в 23 12 44" src="https://github.com/user-attachments/assets/a8d8d253-09cd-47f5-8834-fbaf1e847941" />
+
 #### Тест-кейс для непустого файла input.txt
 
-img
+<img width="632" height="108" alt="Снимок экрана 2026-10-21 в 11 22 07" src="https://github.com/user-attachments/assets/fe94524e-9941-4adf-a360-29cfcd4096a4" />  
+
+<img width="225" height="70" alt="Снимок экрана 2026-10-21 в 11 13 44" src="https://github.com/user-attachments/assets/ce8cc240-c252-4308-8443-74a5f103ad98" />
 
 #### Тест-кейс для пустого файла input.txt
 
-img
+<img width="632" height="71" alt="Снимок экрана 2026-10-20 в 23 14 55" src="https://github.com/user-attachments/assets/791df74c-aada-4f4b-8dc8-5a025e4932bd" />
+
+<img width="225" height="78" alt="Снимок экрана 2026-10-21 в 11 28 34" src="https://github.com/user-attachments/assets/8ba4d2b0-a530-44e3-a054-8a856f656fd1" />
 
 #### Тест-кейс для файла input.txt с текстом 'Привет' в кодировке cp1251
 
-img
+<img width="628" height="88" alt="Снимок экрана 2026-10-20 в 23 17 57" src="https://github.com/user-attachments/assets/5890fa10-77c1-4fe1-a8cb-acceb8224f18" />
 
+<img width="227" height="68" alt="Снимок экрана 2026-10-21 в 11 34 40" src="https://github.com/user-attachments/assets/97a6f8bc-60fa-42a6-9355-19ccdddee498" />
