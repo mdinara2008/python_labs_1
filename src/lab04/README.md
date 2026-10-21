@@ -8,8 +8,9 @@ def read_text(path: str | Path, encoding: str = "utf-8") -> str:
     '''
     Открывает файл на чтение и возвращает содержимое как одну строку.
     Кодировка по умолчанию UTF-8, чтобы выбрать другую, нужно передать её в параметр функции (например, encoding = "cp1251").
-    Если файл не найден - FileNotFoundError.
-    Если кодировка не подходит - UnicodeDecodeError.
+    Файл не найден -> функция не перехватывает ошибку,
+    а даёт ей "всплыть" наружу как FileNotFoundError.
+    Если неподходящая кодировка -> всплывает UnicodeDecodeError.
     '''
     p = Path(path)
     return p.read_text(encoding=encoding)
@@ -71,6 +72,8 @@ def main():
         r_text = read_text("data/lab04/input.txt", encoding="utf-8")
     except FileNotFoundError:
         print("файл не найден")
+    except UnicodeDecodeError:
+        print("неподходящая кодировка") 
         sys.exit(1)
 
     normal = normalize(r_text)
