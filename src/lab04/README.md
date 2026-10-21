@@ -1,4 +1,3 @@
-<img width="511" height="40" alt="Снимок экрана 2026-10-21 в 11 06 20" src="https://github.com/user-attachments/assets/ac3ec106-f68d-4677-9b6f-a181ad6271e1" />
 # ЛР4 — Файлы: TXT/CSV и отчёты по текстовой статистике
 ## Задание A
 
