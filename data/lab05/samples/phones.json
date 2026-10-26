@@ -1,0 +1,19 @@
+[
+  {
+    "title": "IPhone 16",
+    "price": "90000",
+    "status": "in stock"
+  },
+  {
+    "title": "Samsung S25",
+    "price": "85000",
+    "status": "out of stock"
+  },
+  {
+    "title": "Honor 400 Lite",
+    "price": "30000",
+    "status": "in stock"
+  }
+]
+
+

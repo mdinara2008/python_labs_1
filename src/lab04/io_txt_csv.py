@@ -21,6 +21,8 @@ def write_csv(rows: Iterable[Sequence], path: str | Path, header: tuple[str, ...
     if len(length) > 1:
         raise ValueError('строки имеют разную длину')
 
+    ensure_parent_dir(path)
+
     with p.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         if header is not None:
