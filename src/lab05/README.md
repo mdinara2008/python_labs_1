@@ -121,7 +121,7 @@ img
 
 ### Запуск из корня репозитория
 ```python
-python3 -m src.lab05.json_csv
+`python3 -m src.lab05.json_csv`
 ```
 
 ## Задание B
@@ -201,5 +201,5 @@ img
 
 ### Запуск из корня репозитория
 ```python
-python3 -m src.lab05.csv_xlsx
+`python3 -m src.lab05.csv_xlsx`
 ```
