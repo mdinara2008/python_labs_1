@@ -52,14 +52,16 @@ def json_to_csv(json_path: str, csv_path: str) -> None:
 ```python
 json_to_csv(r'data/lab05/samples/people.json', r'data/lab05/out/people_from_json.csv')
 ```
-img
+<img width="347" height="612" alt="img1_1" src="https://github.com/user-attachments/assets/779044d3-9706-497e-9942-0df1d237cd18" /> 
+<img width="351" height="168" alt="img1_2" src="https://github.com/user-attachments/assets/7b86a220-3f76-4cb3-b4ec-f3d3c628f81a" />
 
 ### Свой пример
 
 ```python
 json_to_csv(r'data/lab05/samples/phones.json', r'data/lab05/out/phones_from_json.csv')
 ```
-img
+<img width="347" height="395" alt="img1_3" src="https://github.com/user-attachments/assets/86b77a82-30b6-4360-8b35-de222e47b696" />
+<img width="358" height="119" alt="img1_4" src="https://github.com/user-attachments/assets/246881df-a399-4ecf-b5ee-c9cd0463d34d" />
 
 ### функция csv_to_json
 
@@ -110,14 +112,17 @@ def csv_to_json(csv_path: str, json_path: str) -> None:
 csv_to_json(r'data/lab05/samples/people.csv', r'data/lab05/out/people_from_csv.json')
 csv_to_json(r'data/lab05/samples/cities.csv', r'data/lab05/out/cities.json')
 ```
-img
+<img width="306" height="158" alt="img2_1" src="https://github.com/user-attachments/assets/2c46bfc1-8b82-49b6-a609-42897dc34270" /> <img width="384" height="615" alt="img2_2" src="https://github.com/user-attachments/assets/dd396fa5-3f25-4a55-8cbb-ffe3a7609e9e" />
+
+<img width="323" height="157" alt="img2_3" src="https://github.com/user-attachments/assets/f6b44261-f74f-4bf2-94da-a6887a70976e" /> <img width="331" height="613" alt="img2_4" src="https://github.com/user-attachments/assets/3ee02ebe-8c49-4902-b530-6e00228c8c4f" />
+
 
 ### Свой пример
 
 ```python
 csv_to_json(r'data/lab05/samples/phones.csv', r'data/lab05/out/phones_from_csv.json')
 ```
-img
+<img width="337" height="119" alt="img2_5" src="https://github.com/user-attachments/assets/3e9de389-d407-4a6a-bad4-adfac0a952ca" /> <img width="391" height="397" alt="img2_6" src="https://github.com/user-attachments/assets/02f5e58b-47d5-45cc-89de-6e55ba13fef2" />
 
 
 ## Задание B
@@ -186,11 +191,14 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
 csv_to_xlsx(r"data/lab05/samples/people.csv", r"data/lab05/out/people.xlsx")
 csv_to_xlsx(r"data/lab05/samples/cities.csv", r"data/lab05/out/cities.xlsx")
 ```
-img
+<img width="306" height="158" alt="img2_1" src="https://github.com/user-attachments/assets/3ea66829-c3a7-45e0-ad22-2b1f08932076" /> <img width="329" height="196" alt="img3_1" src="https://github.com/user-attachments/assets/805abaf8-a53f-4c93-9454-7e389e36557c" />
+
+<img width="323" height="157" alt="img2_3" src="https://github.com/user-attachments/assets/42b3242c-36dc-41a7-bf71-fc8aa1ee0d90" /> <img width="349" height="188" alt="img3_2" src="https://github.com/user-attachments/assets/0dfb4a80-bf9c-4939-b61c-731b3f64dd0a" />
 
 ### Свой пример
 
 ```python
 csv_to_xlsx(r"data/lab05/samples/phones.csv", r"data/lab05/out/phones.xlsx") 
 ```
-img
+<img width="337" height="119" alt="img2_5" src="https://github.com/user-attachments/assets/d1ecdabb-85fe-47d5-8240-a2f4a92a09d9" /> <img width="376" height="142" alt="img3_3" src="https://github.com/user-attachments/assets/645650c9-312f-41f1-808e-7e1b74cbdd7c" />
+
