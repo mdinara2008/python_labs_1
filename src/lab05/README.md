@@ -119,6 +119,10 @@ csv_to_json(r'data/lab05/samples/phones.csv', r'data/lab05/out/phones_from_csv.j
 ```
 img
 
+### Запуск
+```python
+Из корня репозитория: python3 -m src.lab05.json_csv
+```
 
 ## Задание B
 
@@ -194,3 +198,8 @@ img
 csv_to_xlsx(r"data/lab05/samples/phones.csv", r"data/lab05/out/phones.xlsx") 
 ```
 img
+
+### Запуск
+```python
+Из корня репозитория: python3 -m src.lab05.csv_xlsx
+```
