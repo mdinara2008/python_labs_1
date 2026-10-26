@@ -121,7 +121,7 @@ img
 
 ### Запуск из корня репозитория
 ```python
-`python3 -m src.lab05.json_csv`
+python3 -m src.lab05.json_csv
 ```
 
 ## Задание B
@@ -200,6 +200,4 @@ csv_to_xlsx(r"data/lab05/samples/phones.csv", r"data/lab05/out/phones.xlsx")
 img
 
 ### Запуск из корня репозитория
-```python
 `python3 -m src.lab05.csv_xlsx`
-```
