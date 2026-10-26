@@ -120,9 +120,7 @@ csv_to_json(r'data/lab05/samples/phones.csv', r'data/lab05/out/phones_from_csv.j
 img
 
 ### Запуск из корня репозитория
-```python
-python3 -m src.lab05.json_csv
-```
+`python3 -m src.lab05.json_csv`
 
 ## Задание B
 
