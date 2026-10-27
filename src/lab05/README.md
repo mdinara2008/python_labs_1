@@ -13,10 +13,10 @@ def json_to_csv(json_path: str, csv_path: str) -> None:
     csv_file = Path(csv_path)
 
     if json_file.suffix.lower() != ".json":
-         raise ValueError('исходный файл должен иметь расширение .json')
+         raise ValueError('входной файл должен иметь расширение .json')
 
     if csv_file.suffix.lower() != ".csv":
-         raise ValueError('результирующий файл должен иметь расширение .csv')
+         raise ValueError('выходной файл должен иметь расширение .csv')
 
     if not json_file.exists():
          raise FileNotFoundError('файл отсутствует')
