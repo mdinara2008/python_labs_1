@@ -169,7 +169,7 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
 
         max_col = 0
         for cell in col:
-            if cell.value != 0:
+            if not csv_file.exists():
                 max_col = max(max_col, len(str(cell.value)))
 
         ws.column_dimensions[col_letter].width = max(max_col, 8)
