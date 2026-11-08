@@ -35,7 +35,7 @@ def json_to_csv(json_path: str, csv_path: str) -> None:
 
     with csv_file.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames)
-        w.writeheader()
+        w.writeheader()            
         w.writerows(data)
 
 
@@ -71,12 +71,10 @@ def csv_to_json(csv_path: str, json_path: str) -> None:
     with json_file.open("w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-
 if __name__ == "__main__":
     json_to_csv(r'data/lab05/samples/people.json', r'data/lab05/out/people_from_json.csv')
     csv_to_json(r'data/lab05/samples/people.csv', r'data/lab05/out/people_from_csv.json')
     csv_to_json(r'data/lab05/samples/cities.csv', r'data/lab05/out/cities.json')
-
 
     json_to_csv(r'data/lab05/samples/phones.json', r'data/lab05/out/phones_from_json.csv')
     csv_to_json(r'data/lab05/samples/phones.csv', r'data/lab05/out/phones_from_csv.json')
