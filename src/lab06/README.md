@@ -141,10 +141,8 @@ if __name__ == "__main__":
 ```
 ### Запуск
 ```python
-python3 -m src.lab06.cli_convert --help
-python3 -m src.lab06.cli_convert json2csv --help
-python3 -m src.lab06.cli_convert csv2json --help
-python3 -m src.lab06.cli_convert csv2xlsx --help
+python3 -m src.lab06.cli_convert json2csv --in data/samples/lab05/people.json --out data/out/lab05/people_from_json.csv
+python3 -m src.lab06.cli_convert csv2json --in data/samples/lab05/people.csv --out data/out/lab05/people_from_csv.json
 ```
 
 ### Проверка
