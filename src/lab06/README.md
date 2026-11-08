@@ -62,8 +62,8 @@ if __name__ == "__main__":
     main()
 ```
 ### Запуск
-`python3 -m src.lab06.cli_text cat --input data/samples/lab05/people.csv -n
-python3 -m src.lab06.cli_text stats --input data/samples/lab05/people.txt --top 5`
+`python3 -m src.lab06.cli_text cat --input data/samples/lab05/people.csv -n`
+`python3 -m src.lab06.cli_text stats --input data/samples/lab05/people.txt --top 5`
 
 ### Проверка
 
@@ -138,10 +138,10 @@ if __name__ == "__main__":
     main()  
 ```
 ### Запуск
-`python3 -m src.lab06.cli_convert --help
-python3 -m src.lab06.cli_convert json2csv --help
-python3 -m src.lab06.cli_convert csv2json --help
-python3 -m src.lab06.cli_convert csv2xlsx --help`
+`python3 -m src.lab06.cli_convert --help`
+`python3 -m src.lab06.cli_convert json2csv --help`
+`python3 -m src.lab06.cli_convert csv2json --help`
+`python3 -m src.lab06.cli_convert csv2xlsx --help`
 
 ### Проверка
 
