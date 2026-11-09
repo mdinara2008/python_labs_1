@@ -69,18 +69,17 @@ python3 -m src.lab06.cli_text stats --input data/samples/lab05/people.txt --top 
 
 ### Проверка
 
-#### cat
+### cat
 `people.csv`
 
 <img width="985" height="124" alt="Image" src="https://github.com/user-attachments/assets/7c316a26-2796-4b1e-b9cd-e4dfad59a074" />
 
-#### stats
+### stats
 `people.txt`
-
-<img width="1044" height="121" alt="Image" src="https://github.com/user-attachments/assets/245400bd-33e3-4646-91b0-ffd35645bf0d" />
 
 <img width="850" height="92" alt="Image" src="https://github.com/user-attachments/assets/f2b27e0e-7aff-4815-b6c3-9f6d9560939c" />
 
+<img width="1044" height="121" alt="Image" src="https://github.com/user-attachments/assets/245400bd-33e3-4646-91b0-ffd35645bf0d" />
 
 ## Задание B - CLI‑конвертер
 
