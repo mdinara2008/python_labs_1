@@ -151,11 +151,15 @@ python3 -m src.lab06.cli_convert csv2xlsx --in data/samples/lab05/people.csv --o
 
 <img width="360" height="164" alt="Image" src="https://github.com/user-attachments/assets/1801aa46-23ec-432a-80f6-b0399d59e835" />
 
+
+
 `csv2json`
 
 <img width="316" height="167" alt="Image" src="https://github.com/user-attachments/assets/f51f764b-5e42-4458-bc66-1321b324a8ae" />
 
 <img width="389" height="621" alt="Image" src="https://github.com/user-attachments/assets/77d0c987-df1d-4b53-aa90-301994b528d6" />
+
+
 
 `csv2xlsx`
 
@@ -170,6 +174,8 @@ python3 -m src.lab06.cli_convert csv2xlsx --in data/samples/lab05/people.csv --o
 <img width="663" height="210" alt="Image" src="https://github.com/user-attachments/assets/074837f5-9932-4f19-837e-8e1673f18e90" />
 
 <img width="698" height="121" alt="Image" src="https://github.com/user-attachments/assets/6287e1dc-5531-43e3-8c93-260b3239a4d9" />
+
+
 
 `cli_convert, json2csv, csv2json, csv2xlsx`
 
