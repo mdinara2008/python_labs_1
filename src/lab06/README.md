@@ -171,8 +171,6 @@ python3 -m src.lab06.cli_convert csv2xlsx --in data/samples/lab05/people.csv --o
 
 <img width="698" height="121" alt="Image" src="https://github.com/user-attachments/assets/6287e1dc-5531-43e3-8c93-260b3239a4d9" />
 
-<img width="985" height="124" alt="Image" src="https://github.com/user-attachments/assets/8b6ef055-4a96-4020-adc8-84632d5aff06" />
-
 `cli_convert, json2csv, csv2json, csv2xlsx`
 
 <img width="691" height="228" alt="Image" src="https://github.com/user-attachments/assets/e88852e3-d621-4ff7-8a4a-99d44c6c17d0" />
