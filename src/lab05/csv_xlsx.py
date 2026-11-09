@@ -50,10 +50,10 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
     wb.save(xlsx_file)
 
 if __name__ == "__main__":
-    csv_to_xlsx(r"data/lab05/samples/people.csv", r"data/lab05/out/people.xlsx")
-    csv_to_xlsx(r"data/lab05/samples/cities.csv", r"data/lab05/out/cities.xlsx")
+    csv_to_xlsx(r"data/samples/lab05/people.csv", r"data/out/lab05/people.xlsx")
+    csv_to_xlsx(r"data/samples/lab05/cities.csv", r"data/out/lab05/cities.xlsx")
                  
-    csv_to_xlsx(r"data/lab05/samples/phones.csv", r"data/lab05/out/phones.xlsx")       
+    csv_to_xlsx(r"data/samples/lab05/phones.csv", r"data/out/lab05/phones.xlsx")       
              
          
 

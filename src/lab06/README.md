@@ -72,16 +72,16 @@ python3 -m src.lab06.cli_text stats --input data/samples/lab05/people.txt --top 
 #### cat
 `people.csv`
 
-img
-
-img
+<img width="985" height="124" alt="Image" src="https://github.com/user-attachments/assets/7c316a26-2796-4b1e-b9cd-e4dfad59a074" />
 
 #### stats
 `people.txt`
 
 img
 
-img
+<img width="1044" height="121" alt="Image" src="https://github.com/user-attachments/assets/245400bd-33e3-4646-91b0-ffd35645bf0d" />
+
+<img width="850" height="92" alt="Image" src="https://github.com/user-attachments/assets/f2b27e0e-7aff-4815-b6c3-9f6d9560939c" />
 
 
 ## Задание B - CLI‑конвертер
@@ -150,33 +150,41 @@ python3 -m src.lab06.cli_convert csv2xlsx --in data/samples/lab05/people.csv --o
 
 `json2csv`
 
-img
+<img width="354" height="616" alt="Image" src="https://github.com/user-attachments/assets/e6d15340-aac1-4e7d-8d11-964b72a13f2a" />
+
+<img width="360" height="164" alt="Image" src="https://github.com/user-attachments/assets/1801aa46-23ec-432a-80f6-b0399d59e835" />
 
 `csv2json`
 
-img
+<img width="316" height="167" alt="Image" src="https://github.com/user-attachments/assets/f51f764b-5e42-4458-bc66-1321b324a8ae" />
+
+<img width="389" height="621" alt="Image" src="https://github.com/user-attachments/assets/77d0c987-df1d-4b53-aa90-301994b528d6" />
 
 `csv2xlsx`
 
-img
+<img width="316" height="167" alt="Image" src="https://github.com/user-attachments/assets/f51f764b-5e42-4458-bc66-1321b324a8ae" />
+
+<img width="271" height="136" alt="Image" src="https://github.com/user-attachments/assets/decda3f4-ad89-45bc-ac51-459953b04fc5" />
 
 ### Справка --help
 
 `cli_text, cat, stats`
 
-img
+<img width="663" height="210" alt="Image" src="https://github.com/user-attachments/assets/074837f5-9932-4f19-837e-8e1673f18e90" />
 
-img
+<img width="698" height="121" alt="Image" src="https://github.com/user-attachments/assets/6287e1dc-5531-43e3-8c93-260b3239a4d9" />
+
+<img width="985" height="124" alt="Image" src="https://github.com/user-attachments/assets/8b6ef055-4a96-4020-adc8-84632d5aff06" />
 
 `cli_convert, json2csv, csv2json, csv2xlsx`
 
-img10
+<img width="691" height="228" alt="Image" src="https://github.com/user-attachments/assets/e88852e3-d621-4ff7-8a4a-99d44c6c17d0" />
 
-img7
+<img width="766" height="123" alt="Image" src="https://github.com/user-attachments/assets/e82491a7-35fe-4aa4-90de-8fefa0295c70" />
 
-img8
+<img width="768" height="126" alt="Image" src="https://github.com/user-attachments/assets/8916bc85-820c-4963-874a-ff21f84b4907" />
 
-img9
+<img width="765" height="126" alt="Image" src="https://github.com/user-attachments/assets/56f70d5d-0520-40d0-b420-aa1d3f7131f4" />
 
 
 
