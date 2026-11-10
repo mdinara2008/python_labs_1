@@ -36,7 +36,7 @@ def main():
 
     try:
         if args.command == "cat":
-            text = read_text(args.input).split('\n')
+            text = read_text(args.input).splitlines()
             if args.n:
                 for i, line in enumerate(text, start=1):
                     print(f'{i}: {line}')
