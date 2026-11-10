@@ -26,7 +26,7 @@ def main():
 
     try:
         if args.command == "cat":
-            text = read_text(args.input).split('\n')
+            text = read_text(args.input).splitlines()
             if args.n:
                 for i, line in enumerate(text, start=1):
                     print(f'{i}: {line}')
@@ -46,7 +46,7 @@ def main():
                 print(f'{words}: {count}')
     
     except Exception as e:
-        parser.error(f"Произошла ошибка при обработке файла: {e}")
+        parser.error(f"Ошибка при обработке файла: {e}")
 
 if __name__ == "__main__":
     main()
