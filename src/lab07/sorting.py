@@ -1,4 +1,5 @@
 def bubble_sort(nums):
+    """Новый список, отсортированный по возрастанию. Исходный не меняется."""
     a = list(nums)
     n = len(a)
     for i in range(0,n-1):
@@ -8,6 +9,7 @@ def bubble_sort(nums):
     return a
  
 def insertion_sort(nums):
+    """Тот же контракт, что у bubble_sort."""
     a = list(nums)
     n = len(a)
     for i in range(1,n):
@@ -19,6 +21,7 @@ def insertion_sort(nums):
     return a
  
 def selection_sort(nums):
+    """Тот же контракт, что у bubble_sort."""
     a = list(nums)
     n = len(a)
     for i in range(n-1):
