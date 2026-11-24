@@ -2,12 +2,12 @@
 
 ## 1. Примеры запуска функций
 
-`Запуск обработки корректных записей (students_input.json → students_output.json):`
+#### Запуск обработки корректных записей (students_input.json → students_output.json):
 ```python
 python3 -m src.lab08.serialize ok
 ```
 
-`Запуск проверки файла с битыми записями (students_bad.json):`
+#### Запуск проверки файла с битыми записями (students_bad.json)
 ```python
 python3 -m src.lab08.serialize bad
 ```
@@ -103,7 +103,7 @@ python3 -m src.lab08.serialize bad
 - gpa	- float - Средний балл в диапазоне от 0 до 5; int допустим и приводится к float
 
 
-`Модуль src/lab08/models.py:`
+#### Модуль src/lab08/models.py:
 ```python
 make_student(fio, birthdate, group, gpa) - функция-конструктор: проверяет корректность всех четырёх полей, приводит gpa к типу float и возвращает новый словарь записи.
 validate_student(rec) — проверяет, что rec является словарём, набор его ключей строго совпадает с STUDENT_FIELDS; при ошибке — ValueError.
@@ -113,7 +113,7 @@ student_to_dict(rec) — проверяет запись через validate_stu
 student_from_dict(d) — десериализует словарь: проверяет соответствие ключей STUDENT_FIELDS и передаёт поля в make_student для полной валидации и приведения типов.
 ```
 
-`Модуль src/lab08/serialize.py:`
+#### Модуль src/lab08/serialize.py:
 ```python
 students_to_json(students, path) — валидирует и копирует каждую запись списка через student_to_dict, создаёт родительские директории при необходимости и записывает массив в JSON-файл.
 students_from_json(path) — считывает JSON-массив из файла и прогоняет каждую запись через student_from_dict.
@@ -121,6 +121,6 @@ students_from_json(path) — считывает JSON-массив из файл�
 
 ## 5. Политика обработки битых записей
 
-- В модуле src/lab08/serialize.py выбрана политика strict («падаем при первой ошибке»):
+`В модуле src/lab08/serialize.py выбрана политика strict («падаем при первой ошибке»):
 при чтении файла в функции students_from_json все записи нумеруются начиная с 1. Как только встречается первая некорректная запись, 
 чтение немедленно прерывается и выбрасывается ValueError с указанием номера неправильной записи и причины ошибки.`
