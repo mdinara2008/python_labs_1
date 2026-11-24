@@ -22,7 +22,8 @@ def binary_search(sorted_nums, x):
         else:
             hi = mid-1
     return -1
- 
+
+
 def two_sum_brute(nums, target):
     """Находит индексы (i, j) двух элементов с суммой target полным перебором за O(n^2)."""
     n = len(nums)

@@ -6,7 +6,7 @@ def bubble_sort(nums):
             if a[j]>a[j+1]:
                 a[j], a[j+1] = a[j+1], a[j]
     return a
- 
+
 def insertion_sort(nums):
     a = list(nums)
     n = len(a)
