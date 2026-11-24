@@ -20,7 +20,7 @@ def make_student(fio, birthdate, group, gpa):
     if not (0 <= gpa <= 5):
         raise ValueError("gpa must be between 0 and 5")
 
-    return {"fio": fio, "birthdate": birthdate, "group": group, "gpa": gpa}
+    return {"fio": fio, "birthdate": birthdate, "group": group, "gpa": float(gpa)}
 
 
 def validate_student(rec):
@@ -87,4 +87,4 @@ def format_student(rec):
     elif 2 <= age%10 <= 4: word = "года"
     else: word = "лет"
 
-    return f"{short_fio}, {age} {word}, {rec["group"].strip()}, GPA {rec["gpa"]:.2f}"
+    return f"{short_fio} ({rec['group'].strip()}), {age} {word}, GPA {rec['gpa']:.2f}"
